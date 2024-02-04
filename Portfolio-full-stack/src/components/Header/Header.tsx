@@ -10,7 +10,10 @@ const Header = () => {
           </h1>
         </div>
         <div className="flex gap-8">
-          <a className="transition duration-[.4s] hover:text-[#945DD6]" href="">
+          <a
+            className="transition duration-[.4s] hover:text-[#945DD6]"
+            href="#projetos"
+          >
             Projetos
           </a>
           <a className="transition duration-[.4s] hover:text-[#945DD6]" href="">
