@@ -6,7 +6,7 @@ const Projetos = () => {
   return (
     <section
       id="projetos"
-      className=" mt-20 h- mx-20 flex flex-col justify-center items-center  "
+      className=" mt-28 max-sm:mb-[20rem] mx-20 flex flex-col justify-center items-center  "
     >
       <h1 className="text-primary text-[2rem] font-bold max-sm:text-center">
         Projetos

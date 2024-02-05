@@ -60,8 +60,8 @@ const technologies = [
 const Tecnologias = () => {
   return (
     <section
-      id="projetos"
-      className=" project-section h-screen  flex flex-col justify-center items-center "
+      id="tecnologias"
+      className=" project-section h-screen max-sm:-mt-1 flex flex-col justify-center items-center "
     >
       <h1 className="text-primary mx-20 text-[2rem] font-bold max-sm:text-center">
         Tecnologias
