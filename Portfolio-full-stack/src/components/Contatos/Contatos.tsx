@@ -1,3 +1,5 @@
+import { FaInstagram, FaWhatsapp } from "react-icons/fa";
+
 const Contatos = () => {
   return (
     <section
@@ -40,6 +42,15 @@ const Contatos = () => {
         >
           Enviar
         </button>
+        <div className="flex gap-3 mb-16 flex-col justify-center items-center">
+          <h2 className="text-lg font-extrabold text-primary">
+            Com mais facilidade!
+          </h2>
+          <div className="flex gap-4">
+            <FaWhatsapp className="text-3xl text-[#26C009]" />
+            <FaInstagram className="text-3xl text-[#D408C7]" />
+          </div>
+        </div>
       </form>
     </section>
   );
